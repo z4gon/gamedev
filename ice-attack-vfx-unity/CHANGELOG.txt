@@ -1,0 +1,38 @@
+Date:   Tue Oct 11 14:58:51 2022
+    Readme
+Date:   Wed Sep 28 14:39:55 2022
+    Optimize gifs
+Date:   Wed Sep 28 14:22:45 2022
+    More examples, graphs screenshots
+Date:   Wed Sep 28 14:12:40 2022
+    Multi colors
+Date:   Wed Sep 28 14:00:31 2022
+    Implement waves subgraph
+Date:   Wed Sep 28 13:38:44 2022
+    Parametrize spawn offset for waves
+Date:   Wed Sep 28 13:32:05 2022
+    Delay before loop in sub graphs
+Date:   Wed Sep 28 13:24:56 2022
+    Snow system
+Date:   Wed Sep 28 12:20:18 2022
+    Snow mesh
+Date:   Wed Sep 28 10:55:05 2022
+    Spikes vfx
+Date:   Wed Sep 28 09:22:12 2022
+    Dissolve+Fresnel Shader
+Date:   Tue Sep 27 19:49:29 2022
+    Blender modeling of the spike mesh
+Date:   Tue Sep 27 18:11:39 2022
+    Ground Textures Sub Graph
+Date:   Tue Sep 27 18:01:45 2022
+    Ground Particles
+Date:   Tue Sep 27 16:17:54 2022
+    Typo
+Date:   Tue Sep 27 15:56:22 2022
+    Implementation explained
+Date:   Tue Sep 27 12:08:30 2022
+    Base project
+Date:   Tue Sep 27 12:07:19 2022
+    Improve gitignore
+Date:   Tue Sep 27 10:03:46 2022
+    Initial commit
