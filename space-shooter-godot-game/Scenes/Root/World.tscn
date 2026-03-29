@@ -1,0 +1,81 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scripts/Root/World.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/EnemySpawner.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/Actors/Ship.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/VFX/StarParticles.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Fonts/PixelFontSmall.tres" type="DynamicFont" id=5]
+
+[sub_resource type="ParticlesMaterial" id=1]
+resource_local_to_scene = true
+emission_shape = 2
+emission_box_extents = Vector3( 1, 90, 1 )
+flag_disable_z = true
+spread = 0.0
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = -100.0
+initial_velocity_random = 0.5
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+
+[node name="World" type="Node" groups=["World"]]
+script = ExtResource( 1 )
+
+[node name="Background" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StarParticles" parent="." instance=ExtResource( 4 )]
+process_material = SubResource( 1 )
+
+[node name="Ship" parent="." instance=ExtResource( 3 )]
+position = Vector2( 30, 90 )
+
+[node name="EnemySpawner" parent="." instance=ExtResource( 2 )]
+spawn_points_node_paths = [ NodePath("../SpawnPoints/Position2D"), NodePath("../SpawnPoints/Position2D2"), NodePath("../SpawnPoints/Position2D3"), NodePath("../SpawnPoints/Position2D4"), NodePath("../SpawnPoints/Position2D5"), NodePath("../SpawnPoints/Position2D6"), NodePath("../SpawnPoints/Position2D7"), NodePath("../SpawnPoints/Position2D8"), NodePath("../SpawnPoints/Position2D9"), NodePath("../SpawnPoints/Position2D10") ]
+
+[node name="SpawnPoints" type="Node" parent="."]
+
+[node name="Position2D" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 16 )
+
+[node name="Position2D2" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 31 )
+
+[node name="Position2D3" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 48 )
+
+[node name="Position2D4" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 64 )
+
+[node name="Position2D5" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 79 )
+
+[node name="Position2D6" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 96 )
+
+[node name="Position2D7" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 113 )
+
+[node name="Position2D8" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 128 )
+
+[node name="Position2D9" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 144 )
+
+[node name="Position2D10" type="Position2D" parent="SpawnPoints"]
+position = Vector2( 336, 160 )
+
+[node name="ScoreLabel" type="Label" parent="."]
+anchor_right = 1.0
+margin_bottom = 14.0
+custom_fonts/font = ExtResource( 5 )
+text = "Score = 0"
+align = 1
+valign = 1
+
+[connection signal="player_died" from="Ship" to="." method="_on_Ship_player_died"]

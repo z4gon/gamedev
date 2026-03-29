@@ -1,0 +1,88 @@
+Date:   Fri Feb 10 17:16:34 2023
+    Update README.md
+Date:   Fri Feb 10 17:15:08 2023
+    screenshots
+Date:   Fri Feb 10 17:06:10 2023
+    save system
+Date:   Fri Feb 10 16:10:52 2023
+    fix warnings
+Date:   Fri Feb 10 16:07:36 2023
+    unused args
+Date:   Fri Feb 10 16:05:39 2023
+    reorganize scripts folder
+Date:   Fri Feb 10 16:03:39 2023
+    Reorganize
+Date:   Fri Feb 10 15:58:09 2023
+    readme
+Date:   Fri Feb 10 15:56:49 2023
+    show game over after a timer
+Date:   Fri Feb 10 15:53:00 2023
+    game over menu
+Date:   Fri Feb 10 15:27:06 2023
+    main menu using keyboard
+Date:   Fri Feb 10 15:15:13 2023
+    music
+Date:   Fri Feb 10 14:58:41 2023
+    readme
+Date:   Fri Feb 10 14:57:13 2023
+    main menu scene
+Date:   Fri Feb 10 14:49:15 2023
+    font
+Date:   Fri Feb 10 14:43:48 2023
+    fix particles
+Date:   Fri Feb 10 14:32:27 2023
+    readme for swapping out rigid bodies
+Date:   Fri Feb 10 14:27:15 2023
+    refactor bullet to not use rigidbody, use node groups
+Date:   Fri Feb 10 13:41:44 2023
+    hit vfx
+Date:   Fri Feb 10 13:26:01 2023
+    bullet and explosion sounds
+Date:   Fri Feb 10 03:08:38 2023
+    stars particles
+Date:   Fri Feb 10 02:46:03 2023
+    make bullets faster
+Date:   Fri Feb 10 02:39:22 2023
+    table of contents
+Date:   Fri Feb 10 02:36:48 2023
+    readme
+Date:   Fri Feb 10 02:35:07 2023
+    score
+Date:   Fri Feb 10 02:14:56 2023
+    explosion vfx and refactor instancing method
+Date:   Fri Feb 10 01:52:47 2023
+    readme timer
+Date:   Fri Feb 10 01:46:05 2023
+    spawn enemies
+Date:   Fri Feb 10 01:09:38 2023
+    make signal functions more explicit
+Date:   Thu Feb 9 22:44:21 2023
+    use visibility notifiers
+Date:   Thu Feb 9 22:34:49 2023
+    collisions
+Date:   Thu Feb 9 22:19:18 2023
+    Instancing a scene
+Date:   Thu Feb 9 21:22:56 2023
+    Rigid body bullet
+Date:   Thu Feb 9 21:02:37 2023
+    Readme
+Date:   Thu Feb 9 21:01:14 2023
+    script for enemies
+Date:   Thu Feb 9 20:56:31 2023
+    Enemy scene
+Date:   Thu Feb 9 17:28:54 2023
+    ship movement
+Date:   Thu Feb 9 17:23:15 2023
+    ship scene
+Date:   Thu Feb 9 17:20:04 2023
+    rename project
+Date:   Thu Feb 9 17:17:40 2023
+    background
+Date:   Thu Feb 9 17:03:25 2023
+    import resources
+Date:   Thu Feb 9 16:54:21 2023
+    Project Setup
+Date:   Thu Feb 9 16:49:53 2023
+    readme
+Date:   Thu Feb 9 16:47:46 2023
+    Initial commit
