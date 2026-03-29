@@ -1,0 +1,50 @@
+Date:   Tue Oct 11 14:59:28 2022
+    Readme
+Date:   Wed Oct 5 11:49:28 2022
+    Add link to reference tutorial
+Date:   Fri Sep 30 14:54:41 2022
+    Fix readme
+Date:   Fri Sep 30 14:47:25 2022
+    Add graph
+Date:   Fri Sep 30 14:42:19 2022
+    Optimize gifs
+Date:   Fri Sep 30 14:38:24 2022
+    Fix readme
+Date:   Fri Sep 30 14:34:24 2022
+    Update readme
+Date:   Fri Sep 30 14:24:29 2022
+    Debris
+Date:   Fri Sep 30 14:12:51 2022
+    WIP Debris
+Date:   Fri Sep 30 12:37:51 2022
+    Wip debris
+Date:   Fri Sep 30 11:18:55 2022
+    Finishing touches to the scripts and prefab
+Date:   Fri Sep 30 10:16:12 2022
+    WIP Ground Slash Shooter script
+Date:   Thu Sep 29 19:23:35 2022
+    WIP Ground Slash script
+Date:   Thu Sep 29 17:41:58 2022
+    Update readme
+Date:   Thu Sep 29 17:38:54 2022
+    Integrate first person character controller
+Date:   Thu Sep 29 17:02:17 2022
+    Decals
+Date:   Thu Sep 29 16:48:22 2022
+    Spawn over distance and leave a trail
+Date:   Thu Sep 29 16:27:22 2022
+    Gradient and Fade
+Date:   Thu Sep 29 15:54:52 2022
+    Mesh output
+Date:   Thu Sep 29 15:35:50 2022
+    Add visual effect graph
+Date:   Thu Sep 29 13:00:24 2022
+    Setup scene floor
+Date:   Thu Sep 29 12:50:09 2022
+    3D mesh for the slash
+Date:   Wed Sep 28 20:06:14 2022
+    Implementation explained
+Date:   Wed Sep 28 18:14:17 2022
+    Base project
+Date:   Wed Sep 28 18:06:46 2022
+    Initial commit
