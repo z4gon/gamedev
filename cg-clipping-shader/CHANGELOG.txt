@@ -1,0 +1,10 @@
+Date:   Thu Oct 20 14:06:38 2022
+    Readme
+Date:   Thu Oct 20 13:55:54 2022
+    Clipping
+Date:   Thu Oct 20 13:31:17 2022
+    Implement perlin noise clipping
+Date:   Thu Oct 20 13:15:31 2022
+    Basic shaders to cast shadows and have a basic lambert lighting
+Date:   Thu Oct 20 11:03:38 2022
+    Initial commit
