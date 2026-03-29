@@ -1,0 +1,46 @@
+Date:   Mon Nov 14 18:03:18 2022
+    readme
+Date:   Mon Nov 14 17:40:50 2022
+    faster stars
+Date:   Mon Nov 14 17:40:05 2022
+    fireworks fade
+Date:   Mon Nov 14 17:37:05 2022
+    fixes
+Date:   Mon Nov 14 17:33:14 2022
+    fix fireworks
+Date:   Mon Nov 14 17:26:02 2022
+    cleanup
+Date:   Mon Nov 14 17:23:02 2022
+    Explosions
+Date:   Mon Nov 14 17:06:39 2022
+    sub emitter
+Date:   Mon Nov 14 16:40:31 2022
+    implement fireworks with parent ui particle
+Date:   Mon Nov 14 16:26:00 2022
+    implement stars using a parent ui particle component
+Date:   Mon Nov 14 15:23:24 2022
+    fix fireworks
+Date:   Mon Nov 14 14:51:27 2022
+    improve stars
+Date:   Mon Nov 14 14:43:37 2022
+    no errors
+Date:   Mon Nov 14 12:23:56 2022
+    main emitter fireworks
+Date:   Sun Nov 13 21:56:14 2022
+    Update README.md
+Date:   Sun Nov 13 21:54:55 2022
+    animation
+Date:   Sun Nov 13 21:33:04 2022
+    stars
+Date:   Sun Nov 13 12:51:07 2022
+    little tweak in time
+Date:   Sun Nov 13 01:26:53 2022
+    rainbow light rays
+Date:   Sun Nov 13 00:12:44 2022
+    optimize a lil
+Date:   Sun Nov 13 00:04:03 2022
+    designs
+Date:   Sat Nov 12 17:12:40 2022
+    Install Particle UI by Mob-Sakai
+Date:   Fri Nov 11 19:33:51 2022
+    Initial commit
