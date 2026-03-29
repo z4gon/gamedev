@@ -1,0 +1,126 @@
+Date:   Tue Oct 11 14:54:48 2022
+    Readme
+Date:   Wed Oct 5 11:13:11 2022
+    Readme
+Date:   Wed Oct 5 11:12:36 2022
+    Change project name
+Date:   Wed Oct 5 03:20:16 2022
+    Polygons
+Date:   Wed Oct 5 02:49:34 2022
+    Improve readme
+Date:   Wed Oct 5 02:47:47 2022
+    Rename files
+Date:   Wed Oct 5 02:46:40 2022
+    Readme
+Date:   Wed Oct 5 02:15:25 2022
+    Add links to the cg docs
+Date:   Wed Oct 5 02:03:25 2022
+    Draw crosshair
+Date:   Wed Oct 5 01:08:05 2022
+    Rename functions
+Date:   Wed Oct 5 01:02:33 2022
+    Add radar HUD
+Date:   Wed Oct 5 00:48:00 2022
+    Rename files
+Date:   Wed Oct 5 00:46:07 2022
+    Add comment
+Date:   Wed Oct 5 00:41:53 2022
+    Draw sinusoidal
+Date:   Wed Oct 5 00:25:01 2022
+    Readme
+Date:   Wed Oct 5 00:20:22 2022
+    Line with UVs
+Date:   Wed Oct 5 00:11:19 2022
+    Readme fixes
+Date:   Wed Oct 5 00:09:54 2022
+    Draw line readme
+Date:   Tue Oct 4 22:39:18 2022
+    Draw line
+Date:   Tue Oct 4 22:20:23 2022
+    Rename files
+Date:   Tue Oct 4 22:14:26 2022
+    Tweak readme
+Date:   Tue Oct 4 21:32:02 2022
+    Update readme
+Date:   Tue Oct 4 21:29:02 2022
+    Outlined Circle
+Date:   Tue Oct 4 21:12:53 2022
+    Soften circle
+Date:   Tue Oct 4 20:58:59 2022
+    Moved circle
+Date:   Tue Oct 4 20:39:20 2022
+    Tiling
+Date:   Tue Oct 4 20:15:42 2022
+    Fix gif
+Date:   Tue Oct 4 20:14:46 2022
+    Scaling Square
+Date:   Tue Oct 4 20:07:22 2022
+    Leftover
+Date:   Tue Oct 4 20:07:03 2022
+    Rename files
+Date:   Tue Oct 4 19:24:05 2022
+    Readme fixes
+Date:   Tue Oct 4 19:14:35 2022
+    Change the anchor
+Date:   Tue Oct 4 18:58:23 2022
+    Rotate about arbitrary center
+Date:   Tue Oct 4 18:50:52 2022
+    Reorganize files
+Date:   Tue Oct 4 18:43:36 2022
+    Rotating Square
+Date:   Tue Oct 4 18:25:08 2022
+    Moving square, and cleanup
+Date:   Tue Oct 4 18:13:39 2022
+    Share code using Cg include files
+Date:   Tue Oct 4 18:00:03 2022
+    Leftover
+Date:   Tue Oct 4 16:37:45 2022
+    Follow Mouse
+Date:   Tue Oct 4 16:15:26 2022
+    Improve clamp to use vectors instead
+Date:   Tue Oct 4 16:09:59 2022
+    Fix readme
+Date:   Tue Oct 4 16:06:46 2022
+    Variants for Step and Smoothstep
+Date:   Tue Oct 4 16:01:11 2022
+    Variants
+Date:   Tue Oct 4 15:37:09 2022
+    Leftover
+Date:   Tue Oct 4 15:36:50 2022
+    Extend into rectangle
+Date:   Tue Oct 4 15:31:17 2022
+    Square shader
+Date:   Tue Oct 4 14:47:36 2022
+    Rename files for clarity
+Date:   Tue Oct 4 14:43:57 2022
+    Typo
+Date:   Tue Oct 4 14:34:27 2022
+    Don't use conditionals
+Date:   Tue Oct 4 14:24:51 2022
+    Circle
+Date:   Tue Oct 4 13:52:27 2022
+    Cleanup
+Date:   Tue Oct 4 13:48:42 2022
+    Step and Smoothstep
+Date:   Tue Oct 4 12:42:11 2022
+    Custom data from vertex shader
+Date:   Tue Oct 4 11:17:43 2022
+    Fix readme
+Date:   Tue Oct 4 11:16:45 2022
+    Interpolated UVs
+Date:   Tue Oct 4 11:01:53 2022
+    Add course link
+Date:   Tue Oct 4 10:59:11 2022
+    Exposing properties with shaderlab
+Date:   Mon Oct 3 16:14:03 2022
+    Cleanup
+Date:   Mon Oct 3 16:11:08 2022
+    Improve readme and rename files
+Date:   Mon Oct 3 15:20:35 2022
+    Rename for clarity
+Date:   Mon Oct 3 15:19:12 2022
+    Very basic shader program that renders all pixels with red color
+Date:   Mon Oct 3 14:59:36 2022
+    Basic project
+Date:   Mon Oct 3 13:30:35 2022
+    Initial commit
