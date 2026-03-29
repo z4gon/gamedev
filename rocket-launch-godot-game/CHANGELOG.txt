@@ -1,0 +1,32 @@
+Date:   Fri Feb 10 17:20:36 2023
+    Update README.md
+Date:   Fri Feb 10 17:19:54 2023
+    video and readme
+Date:   Fri Feb 10 02:41:12 2023
+    table of contents
+Date:   Thu Feb 9 14:25:51 2023
+    readme
+Date:   Thu Feb 9 14:19:19 2023
+    ignore docs
+Date:   Wed Feb 8 16:44:19 2023
+    Readme
+Date:   Sat Jan 28 20:32:58 2023
+    Animate changing sprites
+Date:   Sat Jan 28 20:25:33 2023
+    background
+Date:   Sat Jan 28 20:23:34 2023
+    Texture button and signals
+Date:   Sat Jan 28 04:07:33 2023
+    AnimationPlayer, Animation, Script
+Date:   Sat Jan 28 03:45:58 2023
+    Simple script
+Date:   Sat Jan 28 03:05:39 2023
+    Viewport resolution and center sprite
+Date:   Sat Jan 28 03:00:58 2023
+    Scene
+Date:   Sat Jan 28 02:46:09 2023
+    Sprites
+Date:   Sat Jan 28 02:41:41 2023
+    Import defaults
+Date:   Sat Jan 28 02:23:54 2023
+    Initial commit
