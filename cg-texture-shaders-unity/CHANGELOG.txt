@@ -1,0 +1,24 @@
+Date:   Tue Oct 11 21:10:24 2022
+    Readme
+Date:   Tue Oct 11 20:40:40 2022
+    Cleanup
+Date:   Tue Oct 11 20:31:33 2022
+    Ripple transition
+Date:   Tue Oct 11 16:34:56 2022
+    Ripple effect
+Date:   Tue Oct 11 15:43:21 2022
+    Rotate texture
+Date:   Tue Oct 11 15:22:25 2022
+    Grayscale
+Date:   Tue Oct 11 15:20:02 2022
+    Grayscale
+Date:   Tue Oct 11 15:17:54 2022
+    Flip
+Date:   Tue Oct 11 15:04:42 2022
+    Readme
+Date:   Tue Oct 11 15:03:47 2022
+    Texture shader
+Date:   Tue Oct 11 14:33:43 2022
+    Display a texture
+Date:   Tue Oct 11 14:21:34 2022
+    Initial commit
