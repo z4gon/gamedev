@@ -1,0 +1,26 @@
+Date:   Wed Oct 19 15:54:35 2022
+    Add link to paper
+Date:   Wed Oct 19 15:10:24 2022
+    Readme
+Date:   Wed Oct 19 14:56:40 2022
+    Fix in HDRP
+Date:   Wed Oct 19 14:36:29 2022
+    delete vs code
+Date:   Wed Oct 19 14:26:16 2022
+    Fixes
+Date:   Wed Oct 19 11:19:30 2022
+    Improve readme
+Date:   Tue Oct 18 19:10:17 2022
+    tessellation explanation
+Date:   Tue Oct 18 19:08:40 2022
+    Add notes for Metal on M1 and lack of support for hull/domain functions
+Date:   Tue Oct 18 17:15:07 2022
+    Tessellation wip
+Date:   Tue Oct 18 17:04:28 2022
+    Standard surface
+Date:   Tue Oct 18 16:32:29 2022
+    Add standard surface
+Date:   Tue Oct 18 16:24:01 2022
+    Low poly mesh
+Date:   Tue Oct 18 15:09:20 2022
+    Initial commit
