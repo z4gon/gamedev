@@ -1,0 +1,50 @@
+Date:   Sat Oct 22 16:49:57 2022
+    Readme
+Date:   Sat Oct 22 15:38:37 2022
+    Optimize gifs
+Date:   Sat Oct 22 15:28:33 2022
+    Readme
+Date:   Sat Oct 22 15:25:34 2022
+    Remove the volume
+Date:   Sat Oct 22 15:22:41 2022
+    Animations
+Date:   Sat Oct 22 13:05:56 2022
+    Fix normals bug
+Date:   Sat Oct 22 13:00:22 2022
+    Add rotator
+Date:   Sat Oct 22 12:41:36 2022
+    Add shuriken particle system
+Date:   Sat Oct 22 12:17:40 2022
+    Add attenuation to the specular
+Date:   Sat Oct 22 11:57:12 2022
+    Fix readme
+Date:   Sat Oct 22 11:55:24 2022
+    remove numbered bullet s
+Date:   Sat Oct 22 11:54:07 2022
+    Optimizie
+Date:   Sat Oct 22 11:34:46 2022
+    Fix additive and add readme
+Date:   Fri Oct 21 20:33:59 2022
+    blinn phong in pure hlsl
+Date:   Fri Oct 21 20:21:47 2022
+    Calculate blinn phong lighting
+Date:   Fri Oct 21 20:18:09 2022
+    Calculate the fresnel effect
+Date:   Fri Oct 21 19:51:28 2022
+    BlinnPhong in shader lab
+Date:   Fri Oct 21 18:57:50 2022
+    Add fresnel
+Date:   Fri Oct 21 17:34:05 2022
+    Readme
+Date:   Fri Oct 21 17:30:27 2022
+    Implement color rainbow with hlsl
+Date:   Fri Oct 21 17:04:59 2022
+    Readme
+Date:   Fri Oct 21 16:57:27 2022
+    Animate colors
+Date:   Fri Oct 21 16:03:11 2022
+    Add mesh
+Date:   Fri Oct 21 11:59:21 2022
+    Textures
+Date:   Thu Oct 20 21:52:53 2022
+    Initial commit
