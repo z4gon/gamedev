@@ -1,0 +1,27 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel DeformVertices
+
+#include "./shared/Vertex.cginc"
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+StructuredBuffer<Vertex> InitialVertices;
+RWStructuredBuffer<Vertex> DeformedVertices;
+float Time;
+float Radius;
+float Velocity;
+
+[numthreads(1,1,1)]
+void DeformVertices (uint3 id : SV_DispatchThreadID)
+{
+    Vertex v = InitialVertices[id.x];
+    float3 spherePosition = normalize(v.position) * Radius;
+    float3 sphereNormal = normalize(v.position) * Radius;
+
+    float progress = (sin(Time * Velocity) / 2) + 0.5;
+
+    v.position = lerp(spherePosition, v.position, progress);
+    v.normal = lerp(sphereNormal, v.normal, progress);
+
+    DeformedVertices[id.x] = v;
+}
