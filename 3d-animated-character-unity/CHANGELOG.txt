@@ -1,0 +1,284 @@
+Date:   Wed Feb 8 03:23:32 2023
+    Level up animation
+Date:   Wed Feb 8 02:17:35 2023
+    level up wip
+Date:   Fri Nov 11 14:11:49 2022
+    materials
+Date:   Fri Nov 11 14:10:11 2022
+    Update README.md
+Date:   Fri Nov 11 14:07:28 2022
+    Create README.md
+Date:   Fri Nov 11 13:23:40 2022
+    gitignore
+Date:   Fri Nov 11 13:20:52 2022
+    optimize files
+Date:   Thu Nov 10 21:06:32 2022
+    cam shake and img optimization
+Date:   Thu Nov 10 06:47:35 2022
+    fix sun
+Date:   Thu Nov 10 06:42:46 2022
+    attacks
+Date:   Thu Nov 10 05:28:34 2022
+    at ease
+Date:   Thu Nov 10 04:49:35 2022
+    cleanup character controller
+Date:   Thu Nov 10 04:09:03 2022
+    add lights
+Date:   Thu Nov 10 03:59:43 2022
+    cleanup animations no glitch
+Date:   Wed Nov 9 20:20:59 2022
+    character controller
+Date:   Wed Nov 9 19:15:31 2022
+    third person character controller
+Date:   Wed Nov 9 19:00:30 2022
+    import into unity
+Date:   Wed Nov 9 18:09:01 2022
+    fight stance
+Date:   Wed Nov 9 17:58:43 2022
+    readme
+Date:   Wed Nov 9 17:26:19 2022
+    finished combo
+Date:   Wed Nov 9 17:13:42 2022
+    combo wip
+Date:   Wed Nov 9 16:09:43 2022
+    combo wip
+Date:   Wed Nov 9 15:41:24 2022
+    cut kick wip
+Date:   Wed Nov 9 15:29:31 2022
+    cut kick wip
+Date:   Wed Nov 9 15:01:51 2022
+    uppercut wip
+Date:   Wed Nov 9 12:52:13 2022
+    uppercut wip
+Date:   Wed Nov 9 12:03:30 2022
+    punch wip
+Date:   Wed Nov 9 04:25:44 2022
+    punch wip
+Date:   Wed Nov 9 02:30:46 2022
+    running
+Date:   Wed Nov 9 02:05:40 2022
+    run wip
+Date:   Tue Nov 8 22:15:08 2022
+    import into unity
+Date:   Tue Nov 8 18:54:45 2022
+    readme
+Date:   Tue Nov 8 18:50:37 2022
+    walking animation
+Date:   Tue Nov 8 18:45:01 2022
+    walking wip
+Date:   Tue Nov 8 17:42:32 2022
+    walking wip
+Date:   Tue Nov 8 17:33:29 2022
+    walking wip
+Date:   Tue Nov 8 15:21:43 2022
+    import into unity
+Date:   Tue Nov 8 15:01:53 2022
+    readme
+Date:   Tue Nov 8 14:40:01 2022
+    idle animation
+Date:   Tue Nov 8 14:24:43 2022
+    hands
+Date:   Tue Nov 8 13:06:55 2022
+    shift weight
+Date:   Tue Nov 8 12:52:14 2022
+    shift weight
+Date:   Tue Nov 8 12:38:06 2022
+    shift weight
+Date:   Tue Nov 8 12:19:08 2022
+    bone group
+Date:   Mon Nov 7 21:41:56 2022
+    readme
+Date:   Mon Nov 7 21:34:02 2022
+    inverse kinematics
+Date:   Mon Nov 7 21:22:01 2022
+    readme
+Date:   Mon Nov 7 19:40:17 2022
+    readme
+Date:   Mon Nov 7 19:37:25 2022
+    idle animation
+Date:   Mon Nov 7 18:59:18 2022
+    clean animation
+Date:   Mon Nov 7 16:36:32 2022
+    animation wip
+Date:   Mon Nov 7 15:28:09 2022
+    rig for the shoulders
+Date:   Mon Nov 7 12:22:40 2022
+    clean
+Date:   Mon Nov 7 12:19:52 2022
+    finish armature
+Date:   Mon Nov 7 12:09:22 2022
+    cleanup rig
+Date:   Mon Nov 7 11:21:41 2022
+    weights on armature
+Date:   Sun Nov 6 21:01:29 2022
+    readme
+Date:   Sun Nov 6 20:57:34 2022
+    some weight painting
+Date:   Sun Nov 6 20:28:09 2022
+    armature
+Date:   Sun Nov 6 19:31:44 2022
+    emissive
+Date:   Sun Nov 6 19:12:58 2022
+    screenshot
+Date:   Sun Nov 6 19:10:40 2022
+    setup scene
+Date:   Sun Nov 6 11:27:40 2022
+    more readme
+Date:   Sun Nov 6 10:52:32 2022
+    readme images
+Date:   Sun Nov 6 10:39:16 2022
+    some rendering
+Date:   Sun Nov 6 10:01:48 2022
+    Import into unity
+Date:   Sun Nov 6 09:38:52 2022
+    normals finished for real
+Date:   Sun Nov 6 09:29:09 2022
+    better normal map
+Date:   Sun Nov 6 09:24:50 2022
+    better normal map
+Date:   Sat Nov 5 20:54:11 2022
+    better normal map
+Date:   Sat Nov 5 20:37:03 2022
+    for normals
+Date:   Sat Nov 5 15:58:29 2022
+    clean
+Date:   Sat Nov 5 11:20:19 2022
+    more baked normals
+Date:   Sat Nov 5 10:55:29 2022
+    cleanup
+Date:   Sat Nov 5 10:31:17 2022
+    more cleanup
+Date:   Sat Nov 5 10:23:53 2022
+    cleanup
+Date:   Sat Nov 5 09:53:57 2022
+    ultra hd
+Date:   Fri Nov 4 17:44:10 2022
+    decimated
+Date:   Fri Nov 4 17:24:41 2022
+    decimated
+Date:   Fri Nov 4 16:24:08 2022
+    cleanup
+Date:   Fri Nov 4 14:56:52 2022
+    material
+Date:   Fri Nov 4 14:52:44 2022
+    painting
+Date:   Fri Nov 4 14:04:26 2022
+    painting
+Date:   Fri Nov 4 13:02:13 2022
+    painting
+Date:   Fri Nov 4 12:48:54 2022
+    painting
+Date:   Fri Nov 4 12:30:52 2022
+    painting
+Date:   Fri Nov 4 11:58:39 2022
+    pinting
+Date:   Fri Nov 4 11:49:36 2022
+    pinting
+Date:   Fri Nov 4 11:33:24 2022
+    painting
+Date:   Fri Nov 4 10:49:27 2022
+    painting
+Date:   Fri Nov 4 08:19:08 2022
+    cleanup
+Date:   Fri Nov 4 07:33:32 2022
+    uv
+Date:   Thu Nov 3 21:45:44 2022
+    uv
+Date:   Thu Nov 3 20:34:34 2022
+    uv unwrap
+Date:   Thu Nov 3 20:17:14 2022
+    uv seams in hd
+Date:   Thu Nov 3 19:59:17 2022
+    more uv in the hd
+Date:   Thu Nov 3 19:40:57 2022
+    uv seams in hd
+Date:   Thu Nov 3 17:53:00 2022
+    some seams in the hd
+Date:   Thu Nov 3 17:47:27 2022
+    uv unwrap
+Date:   Thu Nov 3 17:41:32 2022
+    uv seams
+Date:   Thu Nov 3 17:20:56 2022
+    high res finished
+Date:   Thu Nov 3 16:53:47 2022
+    wip
+Date:   Thu Nov 3 16:24:30 2022
+    hd complete
+Date:   Thu Nov 3 15:21:14 2022
+    hd weapon
+Date:   Thu Nov 3 14:44:52 2022
+    hd smooth
+Date:   Thu Nov 3 13:13:21 2022
+    progress on hdd
+Date:   Thu Nov 3 12:54:03 2022
+    high poly
+Date:   Thu Nov 3 12:38:35 2022
+    fix poly
+Date:   Thu Nov 3 12:32:00 2022
+    strategic smooth
+Date:   Thu Nov 3 12:28:31 2022
+    fix poly
+Date:   Thu Nov 3 12:24:55 2022
+    more wip
+Date:   Thu Nov 3 10:59:27 2022
+    improve low poly with smoothess
+Date:   Wed Nov 2 18:53:18 2022
+    wip
+Date:   Wed Nov 2 18:50:27 2022
+    leftover
+Date:   Wed Nov 2 18:49:33 2022
+    attach weapon
+Date:   Wed Nov 2 18:32:36 2022
+    face
+Date:   Wed Nov 2 18:17:32 2022
+    tweaks
+Date:   Wed Nov 2 18:08:20 2022
+    more tweaks
+Date:   Wed Nov 2 17:14:53 2022
+    shoulder wip
+Date:   Wed Nov 2 08:03:21 2022
+    leftovers
+Date:   Wed Nov 2 07:53:33 2022
+    nit
+Date:   Wed Nov 2 07:49:34 2022
+    join weapon to body
+Date:   Wed Nov 2 07:28:53 2022
+    weapon
+Date:   Wed Nov 2 06:54:23 2022
+    fix back boosters
+Date:   Wed Nov 2 06:51:12 2022
+    Fix chest
+Date:   Wed Nov 2 06:49:40 2022
+    finished
+Date:   Wed Nov 2 06:40:20 2022
+    helmet
+Date:   Wed Nov 2 06:02:49 2022
+    Adjustments
+Date:   Wed Nov 2 05:50:14 2022
+    Arm and hand
+Date:   Wed Nov 2 05:02:25 2022
+    wip arm
+Date:   Wed Nov 2 04:46:06 2022
+    more progress in the shoulders
+Date:   Wed Nov 2 03:39:49 2022
+    shoulders
+Date:   Wed Nov 2 03:24:53 2022
+    Shoulders
+Date:   Wed Nov 2 02:16:06 2022
+    wip
+Date:   Wed Nov 2 02:14:14 2022
+    wip
+Date:   Wed Nov 2 01:59:06 2022
+    More polygons for feet
+Date:   Wed Nov 2 01:34:45 2022
+    more leg
+Date:   Wed Nov 2 01:16:11 2022
+    leg wip
+Date:   Wed Nov 2 01:01:13 2022
+    more modelling wip
+Date:   Tue Nov 1 21:10:01 2022
+    wip 3d model
+Date:   Tue Nov 1 18:34:26 2022
+    Sketch
+Date:   Tue Nov 1 17:11:36 2022
+    Initial commit
