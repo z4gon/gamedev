@@ -1,0 +1,54 @@
+Date:   Tue Oct 18 11:26:31 2022
+    Unlit + lighting and shadow
+Date:   Tue Oct 18 11:08:44 2022
+    Shadow reciever
+Date:   Tue Oct 18 10:48:49 2022
+    Ambient lighting
+Date:   Tue Oct 18 10:20:15 2022
+    Cleanup
+Date:   Mon Oct 17 20:42:39 2022
+    Simple lambert lighting
+Date:   Mon Oct 17 19:47:03 2022
+    More screenshots
+Date:   Mon Oct 17 19:45:35 2022
+    Standard surface shader with vertex shader
+Date:   Mon Oct 17 19:35:06 2022
+    Standard Lighting
+Date:   Fri Oct 14 15:27:31 2022
+    Fix readme
+Date:   Fri Oct 14 14:29:49 2022
+    Add screenshots
+Date:   Fri Oct 14 14:28:37 2022
+    Readme
+Date:   Fri Oct 14 14:10:59 2022
+    Fix readme
+Date:   Fri Oct 14 14:08:48 2022
+    Leftover
+Date:   Fri Oct 14 14:05:19 2022
+    Toon shader
+Date:   Fri Oct 14 13:36:38 2022
+    Toon shader ramps
+Date:   Fri Oct 14 13:30:16 2022
+    Custom Lambert
+Date:   Fri Oct 14 11:29:56 2022
+    Readme
+Date:   Fri Oct 14 11:16:29 2022
+    Blinn Phong
+Date:   Fri Oct 14 10:54:14 2022
+    Bump reflections
+Date:   Fri Oct 14 10:39:33 2022
+    Environmental mapping
+Date:   Fri Oct 14 08:42:41 2022
+    Fresnel
+Date:   Thu Oct 13 21:20:46 2022
+    Remove comments
+Date:   Thu Oct 13 21:19:41 2022
+    Note
+Date:   Thu Oct 13 21:18:59 2022
+    Bump Maps
+Date:   Thu Oct 13 20:43:56 2022
+    Fixes
+Date:   Thu Oct 13 20:41:20 2022
+    Standard surface shader
+Date:   Thu Oct 13 20:09:01 2022
+    Initial commit
