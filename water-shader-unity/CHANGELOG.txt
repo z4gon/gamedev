@@ -1,0 +1,162 @@
+Date:   Sun Jul 16 04:02:03 2023
+    update readme
+Date:   Sun Jul 16 03:58:18 2023
+    rebuild
+Date:   Sun Jul 16 03:56:21 2023
+    revert changes
+Date:   Sun Jul 16 03:54:15 2023
+    build again
+Date:   Sun Jul 16 03:52:46 2023
+    change order of scenes
+Date:   Sun Jul 16 03:51:36 2023
+    build
+Date:   Sun Jul 16 03:46:26 2023
+    add switch scene
+Date:   Sun Jul 16 03:33:27 2023
+    add the navigation for the camera
+Date:   Sun Jul 16 02:02:09 2023
+    add input system
+Date:   Sun Jul 16 01:59:15 2023
+    fix more mix and max
+Date:   Sun Jul 16 01:24:39 2023
+    improve color of lake
+Date:   Sun Jul 16 01:11:59 2023
+    fix some mix max
+Date:   Sun Jul 16 01:08:13 2023
+    improve cliff props
+Date:   Sun Jul 16 00:57:27 2023
+    improve scene props
+Date:   Thu Jul 13 03:12:27 2023
+    more cleanup
+Date:   Thu Jul 13 02:58:54 2023
+    reorganize
+Date:   Thu Jul 13 02:54:02 2023
+    make new cliff scene
+Date:   Thu Jul 13 01:53:23 2023
+    make new lake example
+Date:   Thu Jul 13 01:03:54 2023
+    make all render pipelines have depth texture and opaque texture
+Date:   Thu Jul 13 00:54:56 2023
+    add terrain models
+Date:   Wed Jul 12 03:14:15 2023
+    cleanup
+Date:   Sun Jul 9 21:21:09 2023
+    more cleanup and organization
+Date:   Sun Jul 9 17:21:43 2023
+    more cleanup
+Date:   Sun Jul 9 16:47:26 2023
+    cleanup shadergraphs
+Date:   Tue Jun 27 02:16:24 2023
+    pwa files
+Date:   Tue Jun 27 02:00:56 2023
+    pwa
+Date:   Tue Jun 27 01:58:31 2023
+    web build files
+Date:   Tue Jun 27 01:53:01 2023
+    decompression fallback
+Date:   Tue Jun 27 01:36:15 2023
+    web build
+Date:   Tue Jun 27 01:22:19 2023
+    cleanup packages
+Date:   Tue Jun 27 01:20:03 2023
+    upgrade gitignore
+Date:   Tue Jun 27 01:18:33 2023
+    upgrade unity version
+Date:   Tue Oct 11 14:57:04 2022
+    Readme
+Date:   Tue Sep 27 16:15:22 2022
+    Typo
+Date:   Mon Sep 26 17:00:25 2022
+    Separator
+Date:   Wed Sep 21 20:06:05 2022
+    Ignore user settings
+Date:   Wed Sep 21 20:05:30 2022
+    Upgrade to 2021.3.10
+Date:   Tue Jul 26 03:47:07 2022
+    Shader tweaks
+Date:   Tue Jul 26 03:37:10 2022
+    Gif with water colors
+Date:   Tue Jul 26 03:28:33 2022
+    Cliff scene (#10)
+    - Organize values and new naming
+    - Build rudimentary cliff
+    - More adjustments
+    - Modify shader and scene props
+    - Fix camera
+    - Add trees
+    - Add Gifs
+Date:   Mon Jul 25 07:06:18 2022
+    Waves (#9)
+    - Implement waves
+    - Bump max
+    - Implement waves
+    - Radme
+Date:   Mon Jul 25 06:10:56 2022
+    Add sliders for the shader
+Date:   Mon Jul 25 05:58:17 2022
+    Improve readme
+Date:   Mon Jul 25 05:56:12 2022
+    Improve readme
+Date:   Mon Jul 25 05:55:56 2022
+    Improve readme
+Date:   Mon Jul 25 05:53:09 2022
+    Foam effect (#8)
+    - Implement foam in the shader
+    - Leftover
+    - Improve readme
+Date:   Mon Jul 25 04:14:59 2022
+    More fixes to the readme
+Date:   Mon Jul 25 04:08:25 2022
+    Fix readme
+Date:   Mon Jul 25 04:05:17 2022
+    Add water refraction (#7)
+    - UVs movement
+    - Implement the refracion
+    - Improve readme
+    - Make scene depth get refractions too
+    - Add gif
+Date:   Mon Jul 25 02:13:47 2022
+    Improve the readme
+Date:   Mon Jul 25 01:53:29 2022
+    Improve the readme
+Date:   Sun Jul 24 21:55:17 2022
+    Transparent colored water
+Date:   Sun Jul 24 21:46:32 2022
+    Add transparency
+Date:   Sun Jul 24 21:40:44 2022
+    Improve gif
+Date:   Sun Jul 24 21:38:29 2022
+    Add colors to water depth (#6)
+    - Improve readme
+    - Add colors
+    - With colors
+Date:   Sun Jul 24 21:23:46 2022
+    Improve scene
+Date:   Sun Jul 24 21:08:27 2022
+    Apply depth fade to the water plane (#5)
+    - Apply water depth
+    - Apply correct material
+    - Improve the readme
+    - Bold
+Date:   Sun Jul 24 19:41:30 2022
+    DepthFade sub graph to calculate fade color given depth underwater
+Date:   Sun Jul 24 19:18:19 2022
+    Rename imported assets folder
+Date:   Sun Jul 24 15:32:36 2022
+    Build the Lake Scene (#2)
+    - Ground, rocks, some vegetation
+    - Add a little bit more of vegetation
+    - Add more vegetation
+    - Add remaining props
+    - Reorganize
+    - Finish the lake
+Date:   Sat Jul 23 20:19:34 2022
+    Integrate low poly assets form assets store
+    install URP materials
+    Cleanup
+Date:   Sat Jul 23 19:06:06 2022
+    Remove tutorial info
+Date:   Sat Jul 23 18:52:54 2022
+    Base 3D URP project
+Date:   Sat Jul 23 17:50:18 2022
+    Initial commit
