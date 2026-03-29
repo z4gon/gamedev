@@ -1,0 +1,34 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel SimulateGrass
+
+#include "./shared/GrassBlade.cginc"
+#include "./shared/PerlinNoise.cginc"
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWStructuredBuffer<GrassBlade> GrassBladesBuffer;
+float Time;
+int AgeNoiseColumns;
+int AgeNoiseRows;
+float WindVelocity;
+int WindNoiseColumns;
+int WindNoiseRows;
+float3 GrassOrigin;
+float3 GrassSize;
+
+[numthreads(1,1,1)]
+void SimulateGrass (uint3 id : SV_DispatchThreadID)
+{
+    GrassBlade grassBlade = GrassBladesBuffer[id.x];
+
+    float3 grassLocalPosition = grassBlade.position - GrassOrigin;
+    float2 uv = float2(
+        (grassLocalPosition.x + (GrassSize.x / 2)) / GrassSize.x,
+        (grassLocalPosition.z + (GrassSize.z / 2)) / GrassSize.z
+    );
+
+    grassBlade.ageNoise = (perlin(uv, AgeNoiseColumns, AgeNoiseRows, 1) + 1) / 2;
+    grassBlade.windNoise = perlin(uv, WindNoiseColumns, WindNoiseRows, Time * WindVelocity);
+
+    GrassBladesBuffer[id.x] = grassBlade;
+}
