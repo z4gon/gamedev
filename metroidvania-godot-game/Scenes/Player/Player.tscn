@@ -1,0 +1,242 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Sprites/Player/Player.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Player/Player.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/Player/DustVFXSpawner.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/Player/PlayerGun.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Scripts/Player/JumpVFXSpawner.gd" type="Script" id=5]
+[ext_resource path="res://Scenes/HurtHitSystem/HurtBox.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Resources/Player/PlayerCollider.tres" type="Shape2D" id=7]
+[ext_resource path="res://Scripts/Player/PlayerStatsManager.gd" type="Script" id=8]
+[ext_resource path="res://Scripts/Player/WallDustVFXSpawner.gd" type="Script" id=9]
+
+[sub_resource type="Animation" id=2]
+resource_name = "Idle"
+length = 1.2
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.6, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3 ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "Jump"
+length = 0.1
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 11 ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 11 ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "Run"
+length = 0.6
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 4, 5, 6, 7, 8, 9 ]
+}
+tracks/1/type = "method"
+tracks/1/path = NodePath("DustVFXSpawner")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"values": [ {
+"args": [  ],
+"method": "spawn"
+}, {
+"args": [  ],
+"method": "spawn"
+} ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "WallSlide"
+length = 0.1
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 10 ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "Blink"
+length = 0.9
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false, true, false, true, false, true, false, true ]
+}
+tracks/1/type = "method"
+tracks/1/path = NodePath("PlayerStatsManager")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"values": [ {
+"args": [ true ],
+"method": "set_is_invincible"
+}, {
+"args": [ false ],
+"method": "set_is_invincible"
+} ]
+}
+
+[sub_resource type="Animation" id=8]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[node name="Player" type="KinematicBody2D" groups=["Persists"]]
+collision_mask = 450
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, -12 )
+texture = ExtResource( 1 )
+hframes = 12
+frame = 11
+
+[node name="PlayerGun" parent="Sprite" instance=ExtResource( 4 )]
+show_behind_parent = true
+position = Vector2( 1, 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -7.5 )
+shape = ExtResource( 7 )
+
+[node name="SpriteAnimator" type="AnimationPlayer" parent="."]
+anims/Idle = SubResource( 2 )
+anims/Jump = SubResource( 5 )
+anims/RESET = SubResource( 6 )
+anims/Run = SubResource( 4 )
+anims/WallSlide = SubResource( 9 )
+
+[node name="CameraFollow" type="RemoteTransform2D" parent="."]
+position = Vector2( 0, -7 )
+update_rotation = false
+update_scale = false
+
+[node name="EdgeJumpTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[node name="WallDustVFXSpawner" type="Node2D" parent="."]
+script = ExtResource( 9 )
+
+[node name="DustVFXSpawner" type="Node2D" parent="."]
+script = ExtResource( 3 )
+
+[node name="Timer" type="Timer" parent="DustVFXSpawner"]
+wait_time = 0.2
+
+[node name="JumpVFXSpawner" type="Node2D" parent="."]
+script = ExtResource( 5 )
+
+[node name="HurtBox" parent="." instance=ExtResource( 6 )]
+collision_layer = 8
+
+[node name="Collider" parent="HurtBox" index="0"]
+position = Vector2( 0, -7.5 )
+shape = ExtResource( 7 )
+
+[node name="PlayerStatsManager" type="Node" parent="."]
+script = ExtResource( 8 )
+
+[node name="InvincibilityAnimator" type="AnimationPlayer" parent="PlayerStatsManager"]
+root_node = NodePath("../..")
+anims/Blink = SubResource( 7 )
+anims/RESET = SubResource( 8 )
+
+[node name="RayCastLeftWall" type="RayCast2D" parent="."]
+position = Vector2( 0, -13 )
+enabled = true
+cast_to = Vector2( -6, 0 )
+collision_mask = 2
+
+[node name="RayCastRightWall" type="RayCast2D" parent="."]
+position = Vector2( 0, -13 )
+enabled = true
+cast_to = Vector2( 6, 0 )
+collision_mask = 2
+
+[connection signal="missile_fired" from="Sprite/PlayerGun" to="." method="_on_PlayerGun_missile_fired"]
+[connection signal="timeout" from="DustVFXSpawner/Timer" to="DustVFXSpawner" method="_on_Timer_timeout"]
+[connection signal="hit" from="HurtBox" to="PlayerStatsManager" method="_on_HurtBox_hit"]
+[connection signal="player_died" from="PlayerStatsManager" to="." method="_on_PlayerStatsManager_player_died"]
+
+[editable path="HurtBox"]

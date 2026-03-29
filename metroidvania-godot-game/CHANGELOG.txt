@@ -1,0 +1,176 @@
+Date:   Sat Feb 18 20:45:31 2023
+    full video
+Date:   Thu Feb 16 18:52:58 2023
+    videos
+Date:   Thu Feb 16 18:52:45 2023
+    Update README.md
+Date:   Thu Feb 16 18:43:32 2023
+    game over screen
+Date:   Thu Feb 16 18:12:19 2023
+    lower boss hp
+Date:   Thu Feb 16 18:12:01 2023
+    improve events bus
+Date:   Thu Feb 16 16:34:17 2023
+    music
+Date:   Thu Feb 16 16:22:39 2023
+    pooled sfx players
+Date:   Thu Feb 16 15:18:27 2023
+    custom data format
+Date:   Thu Feb 16 15:17:35 2023
+    load from save
+Date:   Thu Feb 16 14:34:28 2023
+    persist level
+Date:   Thu Feb 16 13:44:19 2023
+    load world
+Date:   Thu Feb 16 03:30:15 2023
+    cleanup
+Date:   Thu Feb 16 03:22:50 2023
+    save stations and load game
+Date:   Thu Feb 16 02:48:09 2023
+    save and load system
+Date:   Thu Feb 16 01:49:31 2023
+    triggers and door block
+Date:   Thu Feb 16 01:10:33 2023
+    cleanup
+Date:   Wed Feb 15 18:25:46 2023
+    spikes behind boss
+Date:   Wed Feb 15 18:23:08 2023
+    spikes and other fixes
+Date:   Wed Feb 15 18:02:06 2023
+    enemy boss bullets
+Date:   Wed Feb 15 17:48:53 2023
+    boss movement
+Date:   Wed Feb 15 17:24:53 2023
+    boss animation
+Date:   Wed Feb 15 16:57:19 2023
+    boss enemy rigging
+Date:   Wed Feb 15 16:13:49 2023
+    warnings
+Date:   Wed Feb 15 15:54:13 2023
+    levels 0, 1, and 2
+Date:   Wed Feb 15 15:40:59 2023
+    doors, levels, change levels
+Date:   Wed Feb 15 12:32:23 2023
+    missile powerup
+Date:   Wed Feb 15 12:15:16 2023
+    use big explosion for bricks
+Date:   Wed Feb 15 11:59:58 2023
+    missile destroyable exclusives
+Date:   Wed Feb 15 11:22:47 2023
+    player missiles ui
+Date:   Wed Feb 15 11:03:17 2023
+    missile knockback
+Date:   Wed Feb 15 10:50:38 2023
+    fire missile
+Date:   Tue Feb 14 20:59:02 2023
+    fix scale bug
+Date:   Tue Feb 14 20:51:22 2023
+    crawling enemy
+Date:   Tue Feb 14 19:36:28 2023
+    plant enemy
+Date:   Tue Feb 14 18:48:38 2023
+    enemy death vfx
+Date:   Tue Feb 14 18:21:19 2023
+    flying enemy
+Date:   Tue Feb 14 16:57:16 2023
+    clear warnings
+Date:   Tue Feb 14 16:33:36 2023
+    refactor the global singleton
+Date:   Tue Feb 14 16:16:02 2023
+    move hitbox to enemy scene
+Date:   Tue Feb 14 16:09:46 2023
+    wall dust
+Date:   Tue Feb 14 15:46:25 2023
+    wall slide dust
+Date:   Tue Feb 14 15:12:35 2023
+    wall slide
+Date:   Mon Feb 13 22:01:31 2023
+    double jump
+Date:   Mon Feb 13 18:22:11 2023
+    pause menu
+Date:   Mon Feb 13 17:50:22 2023
+    theme and styleboxes
+Date:   Mon Feb 13 17:30:46 2023
+    main menu
+Date:   Mon Feb 13 17:16:05 2023
+    ui for player hp
+Date:   Mon Feb 13 16:58:53 2023
+    polish camera shake
+Date:   Mon Feb 13 16:25:23 2023
+    events bus and camera shake
+Date:   Mon Feb 13 15:41:00 2023
+    player stats custom resource
+Date:   Mon Feb 13 14:58:47 2023
+    player stats and invincibility
+Date:   Mon Feb 13 14:11:39 2023
+    enemy stats
+Date:   Mon Feb 13 13:59:09 2023
+    cleanup errors and warnings
+Date:   Mon Feb 13 13:52:33 2023
+    jump and explosion vfxs
+Date:   Mon Feb 13 13:34:10 2023
+    configure and connect hit and hurt boxes
+Date:   Mon Feb 13 11:26:37 2023
+    simple hit and hurt boxes
+Date:   Mon Feb 13 02:52:21 2023
+    fix readme
+Date:   Mon Feb 13 02:16:07 2023
+    check slopes
+Date:   Mon Feb 13 02:12:16 2023
+    walking enemies
+Date:   Sun Feb 12 22:24:50 2023
+    moving platforms
+Date:   Sun Feb 12 17:21:36 2023
+    readme
+Date:   Sun Feb 12 17:20:18 2023
+    bullet timer
+Date:   Sun Feb 12 17:15:32 2023
+    cleanup
+Date:   Sun Feb 12 17:13:01 2023
+    Player Bullets
+Date:   Sun Feb 12 15:45:38 2023
+    better naming
+Date:   Sat Feb 11 20:26:54 2023
+    player gun
+Date:   Sat Feb 11 20:10:57 2023
+    wasd move
+Date:   Sat Feb 11 20:04:08 2023
+    dust vfx
+Date:   Sat Feb 11 19:54:14 2023
+    emit signals when jumping and landing
+Date:   Sat Feb 11 18:06:58 2023
+    edge jumping
+Date:   Sat Feb 11 17:53:52 2023
+    gpu pixel snapping
+Date:   Sat Feb 11 17:51:40 2023
+    slope tiles
+Date:   Sat Feb 11 17:31:34 2023
+    Small tweak
+Date:   Sat Feb 11 17:30:03 2023
+    tileset
+Date:   Sat Feb 11 16:14:58 2023
+    fix the export
+Date:   Sat Feb 11 16:13:04 2023
+    slide with snap
+Date:   Sat Feb 11 16:02:39 2023
+    better nomenclature
+Date:   Sat Feb 11 15:46:27 2023
+    camera follow
+Date:   Sat Feb 11 15:14:26 2023
+    player animations
+Date:   Sat Feb 11 14:23:54 2023
+    readme
+Date:   Sat Feb 11 13:48:53 2023
+    rename project
+Date:   Fri Feb 10 18:43:16 2023
+    player movement, jump and gravity
+Date:   Fri Feb 10 18:07:30 2023
+    player motion with kinematic rigid body, static rigid body bricks
+Date:   Fri Feb 10 17:47:21 2023
+    resources
+Date:   Fri Feb 10 17:40:26 2023
+    project setup
+Date:   Fri Feb 10 17:35:55 2023
+    readme
+Date:   Fri Feb 10 17:32:48 2023
+    Initial commit
