@@ -1,0 +1,38 @@
+Date:   Fri Feb 10 17:18:56 2023
+    Update README.md
+Date:   Fri Feb 10 17:17:58 2023
+    video and readme
+Date:   Fri Feb 10 02:40:29 2023
+    table of contents
+Date:   Thu Feb 9 15:54:31 2023
+    project finished
+Date:   Thu Feb 9 15:43:44 2023
+    collision layers and masks
+Date:   Thu Feb 9 15:38:27 2023
+    get all overlapping areas
+Date:   Thu Feb 9 15:35:12 2023
+    collide with objects
+Date:   Thu Feb 9 15:25:07 2023
+    animations
+Date:   Thu Feb 9 14:49:45 2023
+    Readme
+Date:   Thu Feb 9 14:13:47 2023
+    extract pig scene
+Date:   Thu Feb 9 11:08:48 2023
+    export property
+Date:   Wed Feb 8 22:10:14 2023
+    fix
+Date:   Wed Feb 8 22:09:41 2023
+    pig movement script
+Date:   Wed Feb 8 21:36:32 2023
+    Window Width, Height, Test Width, Test Height, Stretch Mode
+Date:   Wed Feb 8 21:28:47 2023
+    Area, Collision Shape and Sprite
+Date:   Wed Feb 8 21:22:46 2023
+    Add sprites and color rect to scene
+Date:   Wed Feb 8 21:16:14 2023
+    Default texture importer
+Date:   Wed Feb 8 16:46:34 2023
+    Readme
+Date:   Wed Feb 8 16:40:46 2023
+    Initial commit
