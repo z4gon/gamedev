@@ -1,0 +1,32 @@
+Date:   Tue Oct 11 15:00:30 2022
+    Readme
+Date:   Tue Oct 11 14:58:05 2022
+    Readme
+Date:   Tue Sep 27 16:53:01 2022
+    Add graphs
+Date:   Tue Sep 27 16:17:03 2022
+    Improve readme
+Date:   Mon Sep 26 22:24:55 2022
+    Optimize images
+Date:   Mon Sep 26 22:06:49 2022
+    Multi colors
+Date:   Mon Sep 26 21:35:18 2022
+    Sparks
+Date:   Mon Sep 26 20:23:02 2022
+    Normal maps
+Date:   Mon Sep 26 19:52:20 2022
+    Color Multiply and Color over Life
+Date:   Mon Sep 26 17:51:11 2022
+    Size over Life, Wind and Drag Forces
+Date:   Mon Sep 26 17:38:32 2022
+    Face camera plane
+Date:   Mon Sep 26 17:10:12 2022
+    Flipbook Animation
+Date:   Mon Sep 26 16:53:55 2022
+    Random Velocity, Angle and Lifetime at Spawn
+Date:   Mon Sep 26 16:04:50 2022
+    Update the readme
+Date:   Mon Sep 26 15:26:19 2022
+    Base project
+Date:   Mon Sep 26 15:11:56 2022
+    Initial commit
