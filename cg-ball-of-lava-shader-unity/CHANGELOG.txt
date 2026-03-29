@@ -1,0 +1,24 @@
+Date:   Sat Oct 15 19:01:21 2022
+    Remove vscode settings
+Date:   Sat Oct 15 19:00:24 2022
+    Change proj name
+Date:   Thu Oct 13 17:25:44 2022
+    Optimize size
+Date:   Thu Oct 13 17:20:11 2022
+    Lava shader
+Date:   Thu Oct 13 16:26:40 2022
+    Unsaved changes
+Date:   Thu Oct 13 16:26:10 2022
+    Displace vertices with perlin noise
+Date:   Thu Oct 13 15:32:20 2022
+    Remove sphere dismorphing code
+Date:   Thu Oct 13 15:21:45 2022
+    More wip
+Date:   Thu Oct 13 15:02:42 2022
+    Ball of lava wip
+Date:   Thu Oct 13 13:03:30 2022
+    Lighting
+Date:   Thu Oct 13 12:25:38 2022
+    Cube to shpere
+Date:   Tue Oct 11 22:03:01 2022
+    Initial commit
