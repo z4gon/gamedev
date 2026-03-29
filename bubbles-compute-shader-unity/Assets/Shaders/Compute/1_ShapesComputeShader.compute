@@ -1,0 +1,64 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel SolidRed
+#pragma kernel SolidYellow
+#pragma kernel SplitScreen
+#pragma kernel Circle
+#pragma kernel Rectangle
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+int TextureResolution;
+float3 CirclePositionAndRadius;
+float4 RectPositionAndSize;
+
+[numthreads(8,8,1)]
+void SolidRed (uint3 id : SV_DispatchThreadID)
+{
+    Result[id.xy] = float4(1, 0, 0, 1);
+}
+
+[numthreads(8,8,1)]
+void SolidYellow (uint3 id : SV_DispatchThreadID)
+{
+    Result[id.xy] = float4(1, 1, 0, 1);
+}
+
+[numthreads(8,8,1)]
+void SplitScreen (uint3 id : SV_DispatchThreadID)
+{
+    float halfTextureSize = TextureResolution / 2;
+
+    float4 green = float4(0, 1, 0, 1) * step(halfTextureSize, id.y);
+    float4 red = float4(1, 0, 0, 1) * step(halfTextureSize, id.x);
+
+    Result[id.xy] = green + red;
+}
+
+[numthreads(8,8,1)]
+void Circle (uint3 id : SV_DispatchThreadID)
+{
+    float desiredRadius = CirclePositionAndRadius.z;
+    float center = CirclePositionAndRadius.xy;
+    float distanceToCenter = length(id.xy - center);
+
+    float isInCircle = 1 - step(desiredRadius, distanceToCenter);
+
+    Result[id.xy] = float4(1, 0, 0, 1) * isInCircle;
+}
+
+[numthreads(8,8,1)]
+void Rectangle (uint3 id : SV_DispatchThreadID)
+{
+    float center = RectPositionAndSize.xy;
+    float width = RectPositionAndSize.z;
+    float height = RectPositionAndSize.w;
+    float halfWidth = width / 2;
+    float halfHeight = height / 2;
+
+    float isInRectX = step(center - halfWidth, id.x) - step(center + halfWidth, id.x);
+    float isInRectY = step(center - halfHeight, id.y) - step(center + halfHeight, id.y);
+    float isInRect = isInRectX * isInRectY;
+
+    Result[id.xy] = float4(0, 0, 1, 1) * isInRect;
+}

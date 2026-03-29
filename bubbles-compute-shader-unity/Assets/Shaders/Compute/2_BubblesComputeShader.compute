@@ -1,0 +1,70 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel SingleBubble
+#pragma kernel RandomBubbles
+#pragma kernel MovingBubbles
+#pragma kernel BubblesBackground
+
+#include "./shared/BresenhamCircle.hlsl"
+#include "./shared/Random.hlsl"
+#include "./shared/Bubble.hlsl"
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+shared RWTexture2D<float4> Result;
+
+float3 CirclePositionAndRadius;
+float4 CircleColor;
+float4 BackgroundColor;
+
+int TextureResolution;
+float Time;
+float DeltaTime;
+
+RWStructuredBuffer<bubble> BubblesBuffer;
+// StructuredBuffer<bubble> BubblesBuffer;
+
+[numthreads(1,1,1)]
+void SingleBubble (uint3 id : SV_DispatchThreadID)
+{
+    drawCircle(CirclePositionAndRadius.xy, CirclePositionAndRadius.z, CircleColor, Result);
+}
+
+[numthreads(8,8,1)]
+void BubblesBackground (uint3 id : SV_DispatchThreadID)
+{
+    Result[id.xy] = BackgroundColor;
+}
+
+[numthreads(8,1,1)]
+void RandomBubbles (uint3 id : SV_DispatchThreadID)
+{
+    float value = id.x + Time;
+    float2 position = random2(value) * TextureResolution;
+    float2 radius = random(value) * CirclePositionAndRadius.z;
+    drawCircle(position, radius, CircleColor, Result);
+}
+
+[numthreads(8,1,1)]
+void MovingBubbles (uint3 id : SV_DispatchThreadID)
+{
+    // update the position of the bubble
+    bubble b = BubblesBuffer[id.x];
+    b.position = b.position + (b.velocity * DeltaTime);
+
+    if(b.position.x < -b.radius){
+        b.position.x = TextureResolution + b.radius;
+    }
+    if(b.position.x > TextureResolution + b.radius){
+        b.position.x = -b.radius;
+    }
+    if(b.position.y < -b.radius){
+        b.position.y = TextureResolution + b.radius;
+    }
+    if(b.position.y > TextureResolution  + b.radius){
+        b.position.y = -b.radius;
+    }
+
+    BubblesBuffer[id.x] = b;
+
+    drawCircle(b.position, b.radius, CircleColor, Result);
+}
